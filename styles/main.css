@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: suisse_intl,sans-serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+ 
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 40px;
+    align-items: center;
+    border: 1px solid  #E0E0E0;
+    padding-bottom: 40px;
+}
+.nav-bar a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #242424;
+    font-size: 16px;
+}
+input{
+    width: 60vw;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.stockx-logo{
+    padding-right: 40px;
+    cursor: pointer;
+}
+i {
+    margin-right: 10px;
+}
+.stockx-blackx{
+    margin-right: 10px;
+}
+.fa-regular.fa-bell{
+    cursor: pointer;
+}
+.search-container {
+    position: relative;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-input {
+    padding-right: 30px; 
+    flex: 1;
+}
+
+.search-icon {
+    position: absolute;
+    left: 5px; 
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.login-btn, .signup-btn{
+    border: 1px solid #393939;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.login-btn{
+    margin-right: 10px;
+    background-color: transparent;
+}
+.signup-btn{
+    background-color: #393939;
+    color: #ffff;
+}
+.fa-regular.fa-bell{
+padding-right: 15px;
+}
