@@ -1,50 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="...">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="..."
+    />
+  </head>
+  <body>
     <div class="nav-bar">
-        <img src="images/StockX_Green_Digital_RGB.png" height="25" width="120" alt="StockX" class="stockx-logo">
-        <div class="search-container">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit" class="search-icon"><i class="fas fa-search"></i></button>
-            </form>
+      <img
+        src="images/StockX_Green_Digital_RGB.png"
+        height="25"
+        width="120"
+        alt="StockX"
+        class="stockx-logo"
+      />
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input
+            type="text"
+            placeholder="Search for brand, color, etc."
+            name="search"
+          />
+          <button type="submit" class="search-icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Browse</a>
+        <div class="dropdown-content">
+          <a href="#">Sneakers</a>
+          <a href="#">Shoes</a>
+          <a href="#">Apparel</a>
+          <a href="#">Electronics</a>
+          <a href="#">Trading Cards</a>
+          <a href="#">Collectibles</a>
+          <a href="#">Accesories</a>
         </div>
-        <div class="dropdown">
-            <a href="#" class="dropbtn">Browse</a>
-            <div class="dropdown-content">
-              <a href="#">Sneakers</a>
-              <a href="#">Shoes</a>
-              <a href="#">Apparel</a>
-              <a href="#">Electronics</a>
-              <a href="#">Trading Cards</a>
-              <a href="#">Collectibles</a>
-              <a href="#">Accesories</a>
-            </div>
-          </div>
-            <a href="login.html">News</a>
-        <div class="dropdown">
-            <a href="login.html" class="dropbtn">About</a>
-            <div class="dropdown-content">
-            <a href="#"><i class="fa fa-lightbulb"></i>How StockX Works</a>
-            <a href="#"><i class="fa-solid fa-box"></i>Buying Guide</a>
-            <a href="#"><i class="fa-solid fa-money-bill-1"></i>Selling Guide</a>
-            <a href="#"><i class="fa-regular fa-circle-check"></i>Verification</a>
-            <a href="#"><i class="fa-regular fa-newspaper"></i>Newsroom</a>
-            <a href="#"><img src="images/X_Black_Digital_RGB.png" height="15" width="12" class="stockx-blackx">Company</a>
-            </div>
+      </div>
+      <a href="login.html">News</a>
+      <div class="dropdown">
+        <a href="login.html" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="#"><i class="fa fa-lightbulb"></i>How StockX Works</a>
+          <a href="#"><i class="fa-solid fa-box"></i>Buying Guide</a>
+          <a href="#"><i class="fa-solid fa-money-bill-1"></i>Selling Guide</a>
+          <a href="#"><i class="fa-regular fa-circle-check"></i>Verification</a>
+          <a href="#"><i class="fa-regular fa-newspaper"></i>Newsroom</a>
+          <a href="#"
+            ><img
+              src="images/X_Black_Digital_RGB.png"
+              height="15"
+              width="12"
+              class="stockx-blackx"
+            />Company</a
+          >
         </div>
-            <a href="login.html">Help</a>
-            <a href="login.html">Sell</a>
-            <i class="fa-regular fa-bell"></i>
-            <button class="login-btn">Login</button>
-            <button class="signup-btn">Sign Up</button>
+      </div>
+      <a href="login.html">Help</a>
+      <a href="login.html">Sell</a>
+      <i class="fa-regular fa-bell"></i>
+      <button class="login-btn">Login</button>
+      <button class="signup-btn">Sign Up</button>
     </div>
-</body>
+
+    <div class="second-nav-bar">
+      <a href="#">Sneakers</a>
+      <a href="#">Shoes</a>
+      <a href="#">Apparel</a>
+      <a href="#">Electronics</a>
+      <a href="#">Trading Cards</a>
+      <a href="#">Collectibles</a>
+      <a href="#">Accesories</a>
+      <a href="#">Trending Deals</a>
+    </div>
+    <div class="image-banner">
+      <img
+        alt="Jordan-11-Retro-early_Primary_Desktop_EN_(1).png"
+        srcset="
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt468ac7b6d9325a8a/6553c6c138b52a82f55840fd/Jordan-11-Retro-early_Primary_Mobile_EN_(1).png?quality=80&amp;auto=webp&amp;format=pjpg&amp;dpr=1 1x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt468ac7b6d9325a8a/6553c6c138b52a82f55840fd/Jordan-11-Retro-early_Primary_Mobile_EN_(1).png?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2 2x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt468ac7b6d9325a8a/6553c6c138b52a82f55840fd/Jordan-11-Retro-early_Primary_Mobile_EN_(1).png?quality=50&amp;auto=webp&amp;format=pjpg&amp;dpr=3 3x
+        "
+        src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt468ac7b6d9325a8a/6553c6c138b52a82f55840fd/Jordan-11-Retro-early_Primary_Mobile_EN_(1).png?quality=50&amp;auto=webp&amp;format=pjpg&amp;dpr=3"
+        loading="eager"
+        class="chakra-image css-175oaqm"
+        referrerpolicy="origin"
+        fetchpriority="high"
+      />
+      <img
+        alt="Supreme_FW23_Week_16Primary_Desktop.jpg"
+        srcset="
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt686c0cf8386305da/6571f9ff64c9dbaebb36ade2/Supreme_FW23_Week_16Primary_Desktop.jpg?quality=80&amp;auto=webp&amp;format=pjpg&amp;dpr=1&amp;width=1246 1x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt686c0cf8386305da/6571f9ff64c9dbaebb36ade2/Supreme_FW23_Week_16Primary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246 2x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt686c0cf8386305da/6571f9ff64c9dbaebb36ade2/Supreme_FW23_Week_16Primary_Desktop.jpg?quality=50&amp;auto=webp&amp;format=pjpg&amp;dpr=3&amp;width=1246 3x
+        "
+        src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt686c0cf8386305da/6571f9ff64c9dbaebb36ade2/Supreme_FW23_Week_16Primary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246"
+        loading="lazy"
+        class="chakra-image css-175oaqm"
+        referrerpolicy="origin"
+        fetchpriority="auto"
+      />
+      <img
+        alt="HolidayWomensEditLP_Primary_Desktop.jpg"
+        srcset="
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt78df1b3ed64e1f69/656e2a776c1907c60a85bfa0/HolidayWomensEditLP_Primary_Desktop.jpg?quality=80&amp;auto=webp&amp;format=pjpg&amp;dpr=1&amp;width=1246 1x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt78df1b3ed64e1f69/656e2a776c1907c60a85bfa0/HolidayWomensEditLP_Primary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246 2x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt78df1b3ed64e1f69/656e2a776c1907c60a85bfa0/HolidayWomensEditLP_Primary_Desktop.jpg?quality=50&amp;auto=webp&amp;format=pjpg&amp;dpr=3&amp;width=1246 3x
+        "
+        src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt78df1b3ed64e1f69/656e2a776c1907c60a85bfa0/HolidayWomensEditLP_Primary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246"
+        loading="lazy"
+        class="chakra-image css-175oaqm"
+        referrerpolicy="origin"
+        fetchpriority="auto"
+      />
+      <img
+        alt="Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg"
+        srcset="
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt0112d47a22daa824/656de84d1512fe82bb7468b6/Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg?quality=80&amp;auto=webp&amp;format=pjpg&amp;dpr=1&amp;width=1246 1x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt0112d47a22daa824/656de84d1512fe82bb7468b6/Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246 2x,
+          https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt0112d47a22daa824/656de84d1512fe82bb7468b6/Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg?quality=50&amp;auto=webp&amp;format=pjpg&amp;dpr=3&amp;width=1246 3x
+        "
+        src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt0112d47a22daa824/656de84d1512fe82bb7468b6/Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246"
+        loading="lazy"
+        class="chakra-image css-175oaqm"
+        referrerpolicy="origin"
+        fetchpriority="auto"
+      />
+    </div>
+
+    <div class="previous">
+      <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+    </div>
+    <div class="next">
+      <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
