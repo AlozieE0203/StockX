@@ -5,6 +5,109 @@
 body {
   font-family: suisse_intl, sans-serif;
 }
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1264px;
+  height: 384px;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.slide {
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.slide.active {
+  transform: translateX(0);
+  z-index: 2; 
+}
+
+.slide.prev {
+  transform: translateX(-100%);
+}
+
+.slide.next {
+  transform: translateX(100%);
+}
+.slide1 {
+  background-image: url("https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/bltdcf650bbe1d7967a/657b14417537fe1e3623c8bc/Powerpuff-Girls-Dunks-Release-Day_Primary_Desktop_EN.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246");
+}
+.slide2 {
+  background-image: url("https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt686c0cf8386305da/6571f9ff64c9dbaebb36ade2/Supreme_FW23_Week_16Primary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246");
+}
+.slide3 {
+  background-image: url("https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt0112d47a22daa824/656de84d1512fe82bb7468b6/Modern_Heirlooms_-_Designer_JewelryPrimary_Desktop.jpg?quality=75&amp;auto=webp&amp;format=pjpg&amp;dpr=2&amp;width=1246");
+}
+.slide.move-out-left {
+  transform: translateX(-100%);
+}
+
+.slide.move-out-right {
+  transform: translateX(100%);
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#arrow-left {
+  border-width: 30px;
+  border-radius: 50%;
+  border-color: #0f0f0f;
+  left: 0;
+  margin-left: 30px;
+  z-index: 3;
+
+}
+
+#arrow-right {
+  border-width: 30px;
+  border-radius: 50%;
+  border-color: #0f0f0f;
+  right: 0;
+  margin-right: 30px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-solid.fa-chevron-left {
+  color: white;
+}
+.fa-solid.fa-chevron-right {
+  color: white;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
